@@ -1,5 +1,5 @@
 %define upstream_name    Perl-Version
-%define upstream_version 1.010
+%define upstream_version 1.011
 
 Name:       perl-%{upstream_name}
 Version:    %perl_convert_version %{upstream_version}
@@ -53,6 +53,6 @@ rm -rf %buildroot
 %{_mandir}/man1/*
 %{_mandir}/man3/*
 %perl_vendorlib/*
-/usr/bin/perl-reversion
+%{_bindir}/perl-reversion
 
 
