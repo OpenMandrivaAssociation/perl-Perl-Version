@@ -13,6 +13,7 @@ Url:		http://search.cpan.org/dist/%{upstream_name}
 Source0:	http://www.cpan.org/modules/by-module/Perl/%{upstream_name}-%{upstream_version}.tar.gz
 
 BuildRequires:	perl-devel
+BuildRequires: perl(File::Slurp::Tiny)
 BuildRequires:	perl(File::Slurp)
 BuildRequires:	perl(Getopt::Long)
 BuildRequires:	perl(Pod::Usage)
