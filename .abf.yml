@@ -1,2 +1,4 @@
+removed_sources:
+  Perl-Version-1.011.tar.gz: e06387cf775552924791399ab8940ae0fac1d952
 sources:
-  "Perl-Version-1.011.tar.gz": e06387cf775552924791399ab8940ae0fac1d952
+  Perl-Version-1.013.tar.gz: c3571b8325a0fad73136279f08cf23cb67ebda5d
