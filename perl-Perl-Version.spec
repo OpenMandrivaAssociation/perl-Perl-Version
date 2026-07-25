@@ -1,15 +1,15 @@
 %define upstream_name    Perl-Version
-%define upstream_version 1.011
+%define upstream_version 1.019
 
 Name:		perl-%{upstream_name}
-Version:	%perl_convert_version %{upstream_version}
-Release:	5
+Version:	%{upstream_version}
+Release:	1
 
 Summary:	Parse and manipulate Perl version strings
 License:	GPL+ or Artistic
 Group:		Development/Perl
-Url:		https://search.cpan.org/dist/%{upstream_name}
-Source0:	http://www.cpan.org/modules/by-module/Perl/%{upstream_name}-%{upstream_version}.tar.gz
+Url:		https://github.com/briandfoy/perl-version
+Source0:	https://cpan.metacpan.org/authors/id/B/BR/BRIANDFOY/Perl-Version-%{upstream_version}.tar.gz
 
 BuildRequires:	make
 BuildRequires:	perl-devel
