@@ -1,15 +1,13 @@
 %define upstream_name    Perl-Version
-%define upstream_version 1.019
-
 Name:		perl-%{upstream_name}
-Version:	%{upstream_version}
-Release:	1
+Version:	1.019
+Release:	2
 
 Summary:	Parse and manipulate Perl version strings
 License:	GPL+ or Artistic
 Group:		Development/Perl
 Url:		https://github.com/briandfoy/perl-version
-Source0:	https://cpan.metacpan.org/authors/id/B/BR/BRIANDFOY/Perl-Version-%{upstream_version}.tar.gz
+Source0:	https://cpan.metacpan.org/authors/id/B/BR/BRIANDFOY/Perl-Version-%{version}.tar.gz
 
 BuildRequires:	make
 BuildRequires:	perl-devel
@@ -32,7 +30,7 @@ original.
 For example:
 
 %prep
-%setup -q -n %{upstream_name}-%{upstream_version}
+%setup -q -n %{upstream_name}-%{version}
 
 %build
 yes | perl Makefile.PL INSTALLDIRS=vendor
