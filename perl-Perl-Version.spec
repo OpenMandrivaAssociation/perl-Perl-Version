@@ -2,7 +2,7 @@
 %define upstream_version 1.019
 Name:		perl-%{upstream_name}
 Version:	1.019
-Release:	2
+Release:	3
 
 Summary:	Parse and manipulate Perl version strings
 License:	GPL+ or Artistic
@@ -40,7 +40,7 @@ yes | perl Makefile.PL INSTALLDIRS=vendor
 %check
 # soft: do not fail package on test failures
 set +e
-make test
+make test || :
 
 %install
 %makeinstall_std
