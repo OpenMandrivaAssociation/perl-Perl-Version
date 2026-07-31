@@ -2,7 +2,7 @@
 %define upstream_version 1.019
 Name:		perl-%{upstream_name}
 Version:	1.019
-Release:	6
+Release:	7
 
 Summary:	Parse and manipulate Perl version strings
 License:	GPL+ or Artistic
